@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 62.5%;
+
+    display: grid;
+}
+main {
+    background-color: hsl(221, 100%, 96%);
+}
+.result {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: white;
+    display: grid;
+    place-items: center;
+    gap: 20px;
+    font-size: 18px;
+    padding: 20px 40px;
+    border-radius: 0 0 25px 25px;
+}
+.your-result {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 20px;
+}
+.score {
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.your-score {
+    font-size: 60px;
+    font-weight: 700;
+}
+.total-score {
+    font-size: 14px;
+    padding-bottom: 10px;
+
+}
+.text {
+    display: grid;
+    place-items: center;
+    gap: 10px;
+}
+.great {
+    font-size: 23px;
+}
+.para {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 18px;
+}
+
+/* summary */
+
+.summary {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    font-size: 18px;
+}
+.summary-score {
+    display: grid;
+    gap: 20px;
+}
+.summary-text {
+    font-size: 20px;
+}
+.reaction,
+.memory,
+.verbal,
+.visual {
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.reaction {
+    background-color: hsla(0, 100%, 67%, 0.1);
+}
+.memory {
+    background-color: hsla(39, 100%, 56%, 0.1);
+}
+.verbal {
+    background-color: hsla(166, 100%, 37%, 0.1);
+}
+.visual {
+    background-color: hsla(234, 85%, 45%, 0.1);
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.button {
+    text-align: center;
+    padding: 15px;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    border-radius: 25px;
+}
+/*.button:hover {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 46%, 54%));
+}*/
